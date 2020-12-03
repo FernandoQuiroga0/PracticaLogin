@@ -1,0 +1,23 @@
+﻿<Window x:Class="PracticaLoginP.AgregarProducto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaLoginP"
+        mc:Ignorable="d"
+        Title="Agregar Producto" Height="355.744" Width="273.873">
+    <Grid>
+        <Label Content="Producto:" HorizontalAlignment="Left" Margin="27,40,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAgregarP" HorizontalAlignment="Left" Height="23" Margin="27,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Cantidad:" HorizontalAlignment="Left" Margin="28,99,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCantidadP" HorizontalAlignment="Left" Height="23" Margin="27,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Precio Unitario:" HorizontalAlignment="Left" Margin="28,158,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPrecioP" HorizontalAlignment="Left" Height="23" Margin="28,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Button x:Name="btnAgregarP" Click="BtnAgregarP_Click" Content="Agregar" HorizontalAlignment="Left" Margin="28,276,0,0" VerticalAlignment="Top" Width="193"/>
+        <Label Content="Codigo de barra" HorizontalAlignment="Left" Margin="28,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="23" Margin="28,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="28,0,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="28,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+
+    </Grid>
+</Window>

@@ -61,7 +61,10 @@ namespace PracticaLoginP
                     if (ValidarUsuario(usuario, password))
                     {
 
-                        MessageBox.Show("Ingresa a la página");
+                        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+                        this.Hide();
+                        ventanaPrincipal.ShowDialog();
+                        this.Close();
                     }
                     else
                     {

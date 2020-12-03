@@ -1,0 +1,17 @@
+﻿<Window x:Class="PracticaLoginP.VentanaPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaLoginP"
+        mc:Ignorable="d"
+        Title="Ventana Principal" Height="336.654" Width="311.09">
+    <Grid>
+        <Button x:Name="btnProductos" Click="BtnProductos_Click" Content="Productos"  HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="Ventas" Click="Ventas_Click" Content="Ventas" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="btnReportes" Click="BtnReportes_Click" Content="Reportes" HorizontalAlignment="Left" Margin="10,182,0,0" VerticalAlignment="Top" Width="283"/>
+        <Button x:Name="btnQuienesSomos" Click="BtnQuienesSomos_Click" Content="Quienes Somos" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="97"/>
+        <Button x:Name="btnSalir" Click="BtnSalir_Click" Content="Salir" HorizontalAlignment="Left" Margin="218,275,0,0" VerticalAlignment="Top" Width="75" />
+
+    </Grid>
+</Window>
